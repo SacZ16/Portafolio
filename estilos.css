@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.cajaplataforma{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+        position: fixed;    
+       background-size: cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        z-index: -1;
+    overflow: hidden; 
+    font-size: 4rem;
+}
+.inputcambio1{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio12{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio13{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio11{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio2{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio3{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio4{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.inputcambio5{
+    opacity: 1;
+    position: absolute;
+    right: 10000px;
+}
+.cajacambio1{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;    
+    transition: 0.4s;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.cajacambio2{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;        
+    transition: 0.1s;
+    transition: 0.4s;
+    background-color: #222222;
+    box-shadow: 0px 0px 50px 50px rgb(114, 114, 114);
+    color: rgb(255, 255, 255);
+    left: 112%;
+    user-select:none;
+    font-family: "Indie Flower";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    perspective: 1000px;
+}
+.cajacambio3{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;        
+    transition: 0.1s;
+    background-color: #222222;
+    box-shadow: 0px 0px 50px 50px rgb(25, 0, 255);
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 112%;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.cajacambio4{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;       
+    transition: 0.1s; 
+    background-color: #222222;
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 50px 50px rgb(255, 0, 0);
+    align-items: center;
+    bottom: 112%;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.cajacambio5{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:1;    
+    transition: 0.1s;
+    background-color: #222222;
+    box-shadow: 0px 0px 50px 50px rgb(76, 160, 68);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 112%;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.generos{
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+}
+.cajatextoinicio{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    filter: invert(1);
+    height: 85%;
+}
+.cajatextoinicio2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+}
+.cajaproyectoslabel1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    opacity: 0;
+    z-index: 1;
+}
+.cajaproyectoslabel2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    opacity: 0;
+    z-index: 1;
+}
+.cajaproyectoslabel3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    opacity: 0;
+    z-index: 1;
+}
+.iniciopagina{
+    position: absolute;
+    font-size: 80px;
+    width: 100%;
+    height: 100%;
+    filter: invert(1);
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.inputcambio11:checked ~.cajaproyectoslabel1{
+    transition: all 0.5s ease-out;
+    z-index: 2;
+    opacity: 1;
+}
+.inputcambio12:checked ~.cajaproyectoslabel2{
+    transition: all 0.5s ease-out;
+    opacity: 1;
+    z-index: 2;
+}
+.inputcambio13:checked ~.cajaproyectoslabel3{
+    transition: all 0.5s ease-out;
+    opacity: 1;
+    z-index: 2;
+}
+.inputcambio2:checked ~.cajacambio2{
+    z-index: 2;
+    left: 0;
+    transition: 1s;
+}
+
+.inputcambio3:checked ~.cajacambio3{
+    z-index: 2;
+    top: 0;
+    transition: 1s;
+}
+.inputcambio4:checked ~.cajacambio4{
+    z-index: 2;
+    bottom: 0;
+    transition: 1s;
+}
+.inputcambio5:checked ~.cajacambio5{
+    z-index: 2;
+    right: 0;
+    transition: 1s;
+}
+
+.cajabar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 0%;
+    width: 80%;
+    height: 5%;
+    position: absolute;
+    z-index: 3;
+    text-shadow: 1px 1px 10px #558ABB;
+}
+.cajabar2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 9%;
+    padding: 0%;
+    width: 80%;
+    height: 5%;
+    position: absolute;
+    z-index: 3;
+    text-shadow: 1px 1px 10px #558ABB;
+}
+.cajainicio{
+    font-size: 30px;
+    color: cornsilk;
+    cursor: pointer;
+    z-index: 3;
+    font-family: 'Anton', sans-serif;
+}
+.cajaproyectos{
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    color: rgb(180, 180, 177);
+    cursor: pointer;
+    z-index: 3;
+    font-family: 'Anton', sans-serif;
+}
+.cajaproyectos2{
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    color: rgb(180, 180, 177);
+    cursor: pointer;
+    z-index: 3;
+    font-family: 'Anton', sans-serif;
+}
+.cajaproyectos3{
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    color: rgb(180, 180, 177);
+    cursor: pointer;
+    z-index: 3;
+    font-family: 'Anton', sans-serif;
+}
+.cajaproyecto{
+    background-color: burlywood;
+    z-index: 3;
+    cursor: pointer;
+}
+.cajaprueba{
+    position: absolute;
+    width: 10%;
+    cursor: pointer;
+    height: 10%;
+    background-color: coral;
+}
+@keyframes animats {
+    0%{width: 0%;height: 0%;}
+    100%{width: 100%;height: 0%;}
+  }
+
+  .container{
+      width: 80%;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      height: 95%;
+      justify-content: center;
+      align-items: center;
+  }
+  .container2{
+    width: 80%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container3{
+    width: 80%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+      transform-style: preserve-3d;
+      min-height: 50vh;
+      width:35%;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0rem 5rem;
+      box-shadow:  0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+      background: linear-gradient(
+          to right,
+          rgba(245,70,66,0.75),
+          rgba(8,83,156,0.75)
+      );
+  }
+  .card2{
+    transform-style: preserve-3d;
+    min-height: 50vh;
+    width:35%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
+    box-shadow:  0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    background: linear-gradient(
+        to right,
+        rgba(245,70,66,0.75),
+        rgba(8,83,156,0.75)
+    );
+  }
+  .card3{
+    transform-style: preserve-3d;
+    min-height: 50vh;
+    width:35%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
+    box-shadow:  0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    background: linear-gradient(
+        to right,
+        rgba(245,70,66,0.75),
+        rgba(8,83,156,0.75)
+    );
+  }
+  .imagene{
+    transition: all 0.75 ease-out;
+display:flex;
+position:relative;
+left:-15%;
+margin:auto;
+border-radius: 20px;
+  }
+  .textopro{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 3;
+  }
+  .imagen1{
+      position: absolute;
+      width: 10vh;
+      height: 10vh;
+      display: flex;
+      left: 0;
+      z-index: -1;
+  }
+  .front_tec{
+      position: absolute;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+  }
+  .imagen4{
+      position: absolute;
+      width: 10vh;
+      height: 10vh;
+      right: 0;
+      z-index: -1;
+  }
+  .textopro2{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 3;
+  }
+  .imagene2{
+    transition: all 0.75 ease-out;
+display:flex;
+position:relative;
+left:-15%;
+margin:auto;
+border-radius: 20px;
+  }
+  .imagene3{
+    transition: all 0.75 ease-out;
+display:flex;
+position:relative;
+left:-15%;
+margin:auto;
+border-radius: 20px;
+  }
+  .sneaker{
+      min-height: 18vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.75 ease-out;
+      flex-direction: column;
+  }
+  .sneaker img {
+      width: 20rem;
+      z-index: 2;
+  }
+  .circle{
+      width: 20%;
+      height: 15rem;
+      position: absolute;
+      border-radius: 50%;
+z-index: 1;
+      background: linear-gradient(
+          to right,
+          rgba(245,70,66,0.75),
+          rgba(8,83,156,0.75)
+      );
+  }
+  .info h1{
+      font-size: 3rem;
+      transition: all 0.75 ease-out;
+  }
+  .info h3{
+      font-size: 1.4rem;
+      padding: 2rem 0rem;
+      color: #585858;
+      font-weight: ligther;
+      transition: all 0.75 ease-out;
+  }
+  .sizes{
+      display: flex;
+      justify-content: space-evenly;
+      transition: all 0.75 ease-out;
+  }
+  .sizes button{
+      padding: 0.5rem 2rem;
+      transition: all 0.75 ease-out;
+      background: none;
+      border: none;
+      box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: blod;
+      color: #585858;
+  }
+
+  button.active{
+      background: #585858;
+      color: white;
+  }
+  .purchase{
+      margin-top:5rem;
+      transition: all 0.75 ease-out;
+  }
+  .purchase button{ 
+      width: 100%;
+      padding: 1rem 0rem;
+      background: #f54642;
+      border:none ;
+      color: white;
+      cursor: pointer;
+      border-radius: 30px;
+      font-weight: bolder;
+          
+  }
