@@ -735,6 +735,13 @@ span.cuatro {
     box-shadow: 0px 0px 50px 0px #205462ec;
 }
 }
+.acardtecno{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    z-index: 2;
+}
 @keyframes vuela {
     from {
         transform: rotate(0deg);
@@ -806,3 +813,120 @@ span.cuatro {
     left: 45%;
     animation-delay: 3s;
 }
+.psobremi{
+    font-size: 6vh;
+    color: white;
+    /* margin: auto; */
+    margin-left: 8rem;
+    text-align: center;
+    padding: 1rem;
+    /* line-height: 72px; */
+    margin-right: 8rem;
+}
+.movil{
+    display: none;
+}
+@media (max-width: 1360px) {
+    .cajacambio1{    
+        left: 0;
+    }
+    .cajacambio2{    
+        left: 132%;
+    }
+    .cajacambio3{    
+        top: 132%;
+    }
+    .cajacambio4{    
+        bottom: 132%;
+    }
+    .cajacambio5{    
+        right: 132%;
+    }
+    .psobremi{
+        font-size: 5vh;
+    }
+    .acardtecno{
+        text-decoration: none;
+        font-size: 1rem !important;
+        font-weight: 600;
+        color: black;
+        z-index: 2;
+    }
+    .imagen-tecno{
+        width: 6vh;
+        height: 6vh;
+      }
+      .cajabar2{
+        margin-top: 10%;
+      }
+  }
+@media(max-width: 799px){
+      .movil{
+        position: absolute;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        flex-flow: wrap;
+        background: #222222;
+        color: white;
+        z-index: 9999;
+        font-size: 3rem;
+      }
+  }
+  @media(max-width: 1050px){
+    .cardcon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        padding: 16px;
+        font-size: 2rem;
+        color: #000000 !important;
+    }
+    .acardtecno{
+        text-decoration: none;
+        font-size: 2.5rem !important;
+        font-weight: 600;
+        color: black;
+        z-index: 2;
+    }
+    .imagen-tecno{
+        width: 5vh;
+        height: 5vh;
+      }
+      .cajabar2{
+        margin-top: 12%;
+      }
+  }
+  @media (max-width: 850px){
+    .psobremi {
+    font-size: 4.5vh;
+    }
+    .iniciopagina{
+        font-size: 60px;
+    }
+    .cardcon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        padding: 16px;
+        font-size: 1rem;
+        color: #000000 !important;
+    }
+    .acardtecno{
+        text-decoration: none;
+        font-size: 1.9rem !important;
+        font-weight: 600;
+        color: black;
+        z-index: 2;
+    }
+    .imagen-tecno{
+        width: 4.5vh;
+        height: 4.5vh;
+      }
+  }
+
